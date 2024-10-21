@@ -12,8 +12,9 @@ directory_conversation_logger = "C:/ChatBot-1.0.0/Conversations"
 url = 'https://raw.githubusercontent.com/CommandBeat/chat-library/refs/heads/SCAI(Super-Cool-Artificial-Intelligence)/variable_safe.py'
 conversation_logger_folder = os.makedirs(directory_conversation_logger)
 download_folder = os.makedirs(directory_downloads, exist_ok=True)
+current_time = t.time()
 if not os.path.exists(directory_conversation_logger):
-    download_folder = os.makedirs(directory_downloads, exist_ok=True)
+    download_folder = os.makedirs(directory_conversation_logger, exist_ok=True)
 else:
     raise FileExistsError("[WinError 183] Cannot create a file when that file already exists: 'C:/ChatBot-1.0.0/Downloads/Packages'")
 random = r.randint(0, 100000000)
