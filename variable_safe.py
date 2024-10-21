@@ -1,3 +1,4 @@
+import os
 dir = 'C:/Conversations'
 current_time = t.time()
 replies = {'...', '..', '.', ''}
