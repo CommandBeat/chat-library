@@ -13,8 +13,8 @@ It is to be used as a snippet of free code to aid projects or as a start to proj
 CommandBeat(Me) is not to be refrenced in the usage, showcase or even tutorial of this code snippet.
 
 # Installation
-1.) Create a folder in D: called "Python Code".
-2.) Create a folder in "Python Code" called "ChatBot"
-3.) Create a .py file called "main.py"
-4.) (WIP)
+1. Create a folder in D: called "Python Code".
+2. Create a folder in "Python Code" called "ChatBot"
+3. Create a .py file called "main.py"
+4. (WIP)
 
