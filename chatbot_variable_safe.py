@@ -1,4 +1,4 @@
-dir = 'D:/Conversations'
+dir = 'C:/Conversations'
 current_time = t.time()
 replies = {'...', '..', '.', ''}
 database = {}
